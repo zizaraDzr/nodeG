@@ -4,6 +4,9 @@ class DonorService {
     async getAllDonors() {
         return await donorRepository.getAllDonors()
     }
+    async getDonorById(id: number) {
+        return await donorRepository.getDonorById(id)
+    }
 }
 
 
